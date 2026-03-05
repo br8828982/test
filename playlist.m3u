@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="587" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png",9XM
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"6e3fc1cc465555d1b363956ffde841d1":"0cf7740c073db99345434d263c142148"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/9xm/HLSPartner/index.m3u8?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
