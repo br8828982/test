@@ -1,1 +1,70 @@
+name: Generate Kodi Playlist
 
+on:
+  schedule:
+    - cron: "0 */11 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch JSON (with retry)
+        run: |
+          curl -L --retry 5 --retry-delay 5 \
+          https://pkll.xojiv79335.workers.dev/ \
+          -o data.json
+
+      - name: Validate JSON
+        run: |
+          if ! jq empty data.json; then
+            echo "Invalid JSON received"
+            cat data.json
+            exit 1
+          fi
+
+      - name: Generate Playlist
+        run: |
+          OUTPUT="playlist.m3u"
+
+          echo "#EXTM3U" > $OUTPUT
+
+          while IFS= read -r name; do
+
+            jq -r --arg name "$name" '
+            .[] | select(.channel_name==$name) |
+            "#EXTINF:-1 tvg-id=\"" + .channel_id +
+            "\" group-title=\"" + .channel_genre +
+            "\" tvg-logo=\"" + .channel_logo +
+            "\"," + .channel_name + "\n" +
+
+            "#KODIPROP:inputstream=inputstream.adaptive\n" +
+
+            "#KODIPROP:inputstream.adaptive.drm={\"org.w3.clearkey\":{\"license\":{\"keyids\":{\"" +
+            .keyId + "\":\"" + .key + "\"}}}}\n" +
+
+            "#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv&Cookie=" +
+            .cookie + "\n" +
+
+            .channel_url
+            ' data.json >> $OUTPUT
+
+          done < channels.txt
+
+      - name: Commit Playlist
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add playlist.m3u
+
+          git commit -m "Auto update playlist" || echo "No changes"
+
+          git push
