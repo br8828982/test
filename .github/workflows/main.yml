@@ -26,7 +26,7 @@ jobs:
           curl -s "$JSON_URL" > data.json
 
           jq -r --rawfile ch channels.txt '
-          def wanted: ($ch[0] | split("\n") | map(select(length>0)));
+          def wanted: ($ch | split("\n") | map(select(length>0)));
 
           .[] | select(.channel_name as $n | wanted | index($n)) |
 
