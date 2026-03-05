@@ -29,19 +29,33 @@ jobs:
           
             jq -r --arg name "$name" '
             .[] | select(.channel_name==$name) |
+            
+            (.channel_url | split("?")[0] | endswith(".mpd")) as $isdash |
+            (.channel_url | split("?")[0] | endswith(".m3u8")) as $ishls |
+            
             "#EXTINF:-1 tvg-id=\"" + .channel_id +
             "\" group-title=\"" + .channel_genre +
             "\" tvg-logo=\"" + .channel_logo +
             "\"," + .channel_name + "\n" +
-
+            
+            "#KODIPROP:contentlookup=False\n" +
+            
+            (if $isdash then
+            "#KODIPROP:mimetype=application/dash+xml\n"
+            elif $ishls then
+            "#KODIPROP:mimetype=application/vnd.apple.mpegurl\n"
+            else "" end) +
+            
             "#KODIPROP:inputstream=inputstream.adaptive\n" +
-
+            
+            (if $isdash then
             "#KODIPROP:inputstream.adaptive.drm={\"org.w3.clearkey\":{\"license\":{\"keyids\":{\"" +
-            .keyId + "\":\"" + .key + "\"}}}}\n" +
-
+            .keyId + "\":\"" + .key + "\"}}}}\n"
+            else "" end) +
+            
             "#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=" +
             .cookie + "\n" +
-
+            
             .channel_url + "\n"
             ' data.json >> $OUTPUT
 
