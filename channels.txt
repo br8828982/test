@@ -1,5 +1,5 @@
 Star Jalsha Movies HD
-Jalsha Movies
+Star Jalsha Movies
 Colors Bangla Cinema
 Zee Bangla Sonar
 Star Gold HD
@@ -24,11 +24,11 @@ Zee Classic
 B4U Movies
 Star Movies HD
 Star Movies Select HD
-Sony Pix HD
+Sony PIX HD
 Movies Now HD
 MNX HD
 And Flix HD
-And Privé HD
+And Prive HD
 Star Gold Thrills
 Romedy Now
 Star Sports 1 Hindi HD
@@ -36,7 +36,7 @@ Star Jalsha HD
 Colors Bengali HD
 Sony Aath
 SET HD
-Sony SAB HD
+SAB HD
 Zee TV HD
 And TV HD
 Star Plus HD
@@ -57,7 +57,7 @@ MTV
 Disney Channel
 Hungama
 Super Hungama
-Cartoon Network Hindi
+Cartoon Network
 Pogo Hindi
 Nick Hindi
 Sonic Hindi
