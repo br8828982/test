@@ -8,6 +8,14 @@
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 
+#EXTINF:-1 tvg-id="1120" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jalsha_Movies.png",Star Jalsha Movies
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"940a0a4080f553cab03ec23a2e80cf7c":"b162354170b54cb588182eb75681cac0"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsha_Movies_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
 #EXTINF:-1 tvg-id="1657" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png",Colors Bangla Cinema
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
@@ -199,6 +207,14 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/StarMoviesHD_BTS/output/index.mpd?__hdnea
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Movies_Select_HD_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 
+#EXTINF:-1 tvg-id="762" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",Sony PIX HD
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"1ff1fe6b2519562ca3a28602592cd547":"d43132eca3cefc4e29ca8fe548a0638b"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPIX_MOB/WDVLive/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
 #EXTINF:-1 tvg-id="151" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Movies_Now_HD.png",Movies Now HD
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
@@ -222,6 +238,14 @@ https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd?__hdnea__=st=1772737
 #KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"44b4546806d858ebb242a059815aa57f":"95d4e2f1dc1630d368931874d75cf914"}}}}
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 https://jiotvbpkmob.cdn.jio.com/bpk-tv/AndFlixHD_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
+#EXTINF:-1 tvg-id="1349" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Prive_HD.png",And Prive HD
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"5060ddebb51c57a1825a18ca70e24014":"e61277adab8ff7dd8314ae0287556787"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvbpkmob.cdn.jio.com/bpk-tv/AndPriveHD_MOB/WDVLive/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 
 #EXTINF:-1 tvg-id="3098" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Thrills.png",Star Gold Thrills
 #KODIPROP:contentlookup=False
@@ -278,6 +302,14 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyAATH_BTS/output/index.mpd?__hdnea__=s
 #KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"ebd37e936867596a868cc085070e4cd5":"f5c58e6bf0a2deb018fe87a934a6a1d0"}}}}
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_HD_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
+#EXTINF:-1 tvg-id="471" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB.png",SAB HD
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"f223cf2122d7510da9fcec6e523ffba1":"c55848470f58d3bd934fbfe844522b0e"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonySAB_MOB/WDVLive/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 
 #EXTINF:-1 tvg-id="167" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_TV_HD.png",Zee TV HD
 #KODIPROP:contentlookup=False
@@ -435,6 +467,14 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd?__hdnea__=st
 #KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"7a450f0820c4589690eb336c29f18da6":"820e84119563b56d6e6f0bf514cbdc3c"}}}}
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 https://jiotvmblive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
+#EXTINF:-1 tvg-id="816" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network.png",Cartoon Network
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"ea48cf7b24dd54dd98c369626b9ad105":"ee5778d627dfae2c2affc02d76e8db6c"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvbpkmob.cdn.jio.com/bpk-tv/CNHindi_BTS/WDVLive/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 
 #EXTINF:-1 tvg-id="559" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Hindi.png",Pogo Hindi
 #KODIPROP:contentlookup=False
