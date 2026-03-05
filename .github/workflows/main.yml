@@ -25,10 +25,10 @@ jobs:
 
           curl -s "$JSON_URL" > data.json
 
-          for id in $(cat channels.txt); do
+          for name in $(cat channels.txt); do
           
-            jq -r --arg id "$id" '
-            .[] | select(.channel_id==$id) |
+            jq -r --arg name "$name" '
+            .[] | select(.channel_name==$name) |
             "#EXTINF:-1 tvg-id=\"" + .channel_id +
             "\" group-title=\"" + .channel_genre +
             "\" tvg-logo=\"" + .channel_logo +
