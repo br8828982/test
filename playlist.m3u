@@ -1,13 +1,5 @@
 #EXTM3U url-tvg="https://avkb.short.gy/jioepg.xml.gz"
 
-#EXTINF:-1 tvg-id="1373" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"5181d3e6698055578cedc5bfc86b3e56":"3dca7917d8cf9bb7095dc72b48bdcd3c"}}}}
-#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
-https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
-
 #EXTINF:-1 tvg-id="144" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png",Colors HD
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
@@ -22,4 +14,28 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsHD_BTS/output/index.mpd?__hdnea__=s
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 https://jiotvmblive.cdn.jio.com/bpk-tv/9xm/HLSPartner/index.m3u8?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
+#EXTINF:-1 tvg-id="1373" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"5181d3e6698055578cedc5bfc86b3e56":"3dca7917d8cf9bb7095dc72b48bdcd3c"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
+#EXTINF:-1 tvg-id="156" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png",Star Gold HD
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"ec7ad3786d9e5efa9e0c4aeb3e58c7b7":"907509ccae7e68b30ae75b5d09fe60ef"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_HD_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+
+#EXTINF:-1 tvg-id="1125" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold.png",Star Gold
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"940a0a4080f553cab03ec23a2e80cf7c":"b162354170b54cb588182eb75681cac0"}}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_BTS/output/index.mpd?__hdnea__=st=1772737231~exp=1772823631~acl=/*~hmac=a307bed8fb3ab7fa65b56e36df98983f8d0e2366bf3b04bce97da8ae04ca9d1c
 
