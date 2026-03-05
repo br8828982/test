@@ -21,7 +21,7 @@ jobs:
           JSON_URL="https://pkll.xojiv79335.workers.dev/"
           OUTPUT="playlist.m3u"
 
-          echo '#EXTM3U url-tvg="https://avkb.short.gy/jioepg.xml.gz"' > $OUTPUT
+          echo -e '#EXTM3U url-tvg="https://avkb.short.gy/jioepg.xml.gz"\n' > $OUTPUT
 
           curl -s "$JSON_URL" > data.json
 
