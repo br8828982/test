@@ -24,7 +24,7 @@ jobs:
           echo "Updating $FILE"
 
           # Replace ANY jiotv CDN domain automatically
-          sed -i -E "s|https://jiotv[a-z]*\.cdn\.jio\.com|$NEW_BASE|" "$file"
+          sed -i -E "s|https://jiotv[a-z]*\.cdn\.jio\.com|$NEW_BASE|" "$FILE"
 
       - name: Commit changes
         run: |
