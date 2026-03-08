@@ -19,7 +19,7 @@ jobs:
 
           echo "New Base URL: $NEW_BASE"
           
-          FILE="ott_playlist.m3u
+          FILE="ott_playlist.m3u"
 
           echo "Updating $FILE"
 
