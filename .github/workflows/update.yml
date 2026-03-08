@@ -1,0 +1,39 @@
+name: Change Jio CDN Domain
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-domain:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Replace Jio CDN domain
+        run: |
+          set -e
+
+          NEW_BASE="https://jiotvpllive.cdn.jio.com"
+
+          echo "New Base URL: $NEW_BASE"
+          
+          FILE="ott_playlist.m3u
+
+          echo "Updating $FILE"
+
+          # Replace ANY jiotv CDN domain automatically
+          sed -i -E "s|https://jiotv[a-z]*\.cdn\.jio\.com|$NEW_BASE|" "$file"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add *.m3u
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Manual CDN domain update"
+            git push
+          fi
