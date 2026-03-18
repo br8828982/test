@@ -268,8 +268,8 @@ https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"400131994b445d8c8817202248760fda":"2d56cb6f07a75b9aff165d534ae2bfc4"}}}}
-#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1773792035~exp=1773813635~acl=/*~hmac=07b7d0eeb7d9122d8e0005bdfc1a68bb4985a0b42c891d29eae09c5fb8e77fcb
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1773792035~exp=1773813635~acl=/*~hmac=07b7d0eeb7d9122d8e0005bdfc1a68bb4985a0b42c891d29eae09c5fb8e77fcb
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1773828031~exp=1773849631~acl=/*~hmac=8d0ef8cfa07e4183b4e6b4df7d95bc522c2dbf1501e563e93b403c994156610a
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1773828031~exp=1773849631~acl=/*~hmac=8d0ef8cfa07e4183b4e6b4df7d95bc522c2dbf1501e563e93b403c994156610a
 
 #EXTINF:-1 tvg-id="317" group-title="Bengali" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Jalsha_HD.png",Star Jalsha HD
 #KODIPROP:contentlookup=False
