@@ -1,0 +1,15 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9cZGt3VJujNhF5G4hLRy4LMC6LVznt8J_xVguOvDzw&s=10" group-title="Live events",4K Hindi
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Hotstar;in.startv.hotstar/JASS(Android/15)
+https://game.denver69.fun/Series/Jhs.php?id=hin
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9cZGt3VJujNhF5G4hLRy4LMC6LVznt8J_xVguOvDzw&s=10" group-title="Live events",4K Hindi
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Hotstar;in.startv.hotstar/JASS(Android/15)
+http://live12p.hotstar.com/cmaf/live/2108404/inallow-ipl-2026/hin/1540065709/15mindvrm013f8094abcb40450699fc819f9b63b54a05april2026/master_a.m3u8?hdnea=exp=1775395834~acl=/cmaf/live/2108404/inallow-ipl-2026/hin/1540065709/15mindvrm013f8094abcb40450699fc819f9b63b54a05april2026/master_a*~data=ip=g5rMNvE60nxahwpkAkRcvt-userid=nbgx7ES0goyWIa0y9wWkjFMdBMGXO41Ox7TnSLBRPK3d-did=PoHjM9wyu004eeY3wrFIQ6TiuHjvHZ1vwaHmvgy9eyOv-cc=in-de=1-pl=androidtv-ap=25.03.03.2-ut=free-fpassv2-rd=14400-ad=14400-ce=1775394034-ttl=1800-type=paid-raf=1775394634-~hmac=ce679a3f08e0be20162397e3f9f175f8cd85db1e1db4663e59bb4ecff7f65c19
