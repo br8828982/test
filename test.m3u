@@ -1,8 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
+#EXTINF:-1 tvg-id="ts245" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-19212-jd2xwa4w-v1/imageContent-19212-jd2xwa4w-m1.png" group-title="𝕋𝔸𝕋𝔸ℙ𝕃𝔸𝕐 | Movies" group-logo="https://www.tataplay.com/cms-assets/styles/image_232_x_152/s3/media-assets/images/2022-02/tata-play-hd.jpg",Star GOLD HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f
+#KODIPROP:inputstream.adaptive.license_key=https://tplay.cr7x.workers.dev/245/key.json
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tplay.cr7x.workers.dev/live/245.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
