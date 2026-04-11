@@ -1,19 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="ts245" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-19212-jd2xwa4w-v1/imageContent-19212-jd2xwa4w-m1.png" group-title="𝕋𝔸𝕋𝔸ℙ𝕃𝔸𝕐 | Movies" group-logo="https://www.tataplay.com/cms-assets/styles/image_232_x_152/s3/media-assets/images/2022-02/tata-play-hd.jpg",Star GOLD HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tplay.cr7x.workers.dev/245/key.json
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://tplay.cr7x.workers.dev/live/245.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
-
-#EXTINF:-1 tvg-id="ts245" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-19212-jd2xwa4w-v1/imageContent-19212-jd2xwa4w-m1.png" group-title="𝕋𝔸𝕋𝔸ℙ𝕃𝔸𝕐 | Movies" group-logo="https://www.tataplay.com/cms-assets/styles/image_232_x_152/s3/media-assets/images/2022-02/tata-play-hd.jpg",Star GOLD HD
-#KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"server_url":"https://tplay.cr7x.workers.dev/245/key.json"}}}
-#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
-https://tplay.cr7x.workers.dev/live/245.mpd
-
 #EXTINF:-1 tvg-id="ts245" group-title="TATAPLAY | Movies",Star GOLD HD
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
