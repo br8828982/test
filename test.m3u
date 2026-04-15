@@ -1,9 +1,4 @@
-#EXTM3U
-
-#EXTINF:-1 tvg-id="ts245" group-title="TATAPLAY | Movies",Star GOLD HD
+#EXTINF:-1 tvg-id="LIVETV_LIVETVCHANNEL_STAR_GOLD_HD" group-title="Movies" tvg-logo="https://oriby-streaming-proxy.sultanarabi161.workers.dev/https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_GOLD_HD/images/LANDSCAPE_169_HD/LANDSCAPE_169_HD_image.png",Star Gold HD
 #KODIPROP:contentlookup=False
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"9e4332f746b453148b0bd0af4af4b68b":"87f63eb612b43fc9fec8f6c0ed99261a"}}}}
-#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Mozilla/5.0&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
-https://tplay.cr7x.workers.dev/live/245.mpd
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Mozilla/5.0
+http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_STAR_GOLD_HD&uid=gana-sunega&pass=krish-ka
