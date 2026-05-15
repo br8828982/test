@@ -1,4 +1,8 @@
-#EXTINF:-1 tvg-id="LIVETV_LIVETVCHANNEL_STAR_GOLD_HD" group-title="Movies" tvg-logo="https://oriby-streaming-proxy.sultanarabi161.workers.dev/https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_GOLD_HD/images/LANDSCAPE_169_HD/LANDSCAPE_169_HD_image.png",Star Gold HD
+#EXTINF:-1 tvg-id="245" catchup-type="append" catchup-days="8" catchup-source="&begin={utc}&end={utcend}" group-title="TATA PLAY ▶ | Movies" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-19212-jd2xwa4w-v1/imageContent-19212-jd2xwa4w-m1.png",Star GOLD HD
 #KODIPROP:contentlookup=False
-#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Mozilla/5.0
-http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_STAR_GOLD_HD&uid=gana-sunega&pass=krish-ka
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"server_url":"https://tplay.virey40690.workers.dev/key/245"}}}
+#KODIPROP:inputstream.adaptive.common_headers=User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/145.0.0.0%20Safari/537.36&Cookie=hdntl=exp=1778899077~acl=%2fbpk-tv%2firdeto_com_Channel_412%2foutput%2f*~id=9441230843~data=hdntl~hmac=6f6d5f3d0b1c8ebad477ee6ae9bdcd7ed538de2904b1f039abdeeb6c840b09af
+https://bpaita4.akamaized.net/bpk-tv/irdeto_com_Channel_412/output/manifest.mpd
